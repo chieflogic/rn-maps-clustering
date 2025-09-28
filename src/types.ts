@@ -1,12 +1,12 @@
-import type Supercluster from 'supercluster';
+import type Supercluster from 'supercluster'
 
 export type InputPointFeature = GeoJSON.Feature<
   GeoJSON.Point,
   {
-    index: number;
-    [key: string]: any;
+    key: string
+    [key: string]: any
   }
->;
+>
 
-export type ClusterFeature = Supercluster.ClusterFeature<{}>;
-export type PointFeature = Supercluster.PointFeature<{ index: number }>;
+export type ClusterFeature = Supercluster.ClusterFeature<{}>
+export type PointFeature = Supercluster.PointFeature<{key: string}>

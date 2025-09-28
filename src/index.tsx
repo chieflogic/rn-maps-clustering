@@ -1,6 +1,7 @@
-import ClusteredMapView from './ClusteredMapView';
+import ClusteredMapView from './ClusteredMapView'
 
-export * from './ClusteredMapView';
-export * from './types';
+export * from './ClusteredMapView'
+export * from './helpers'
+export * from './types'
 
-export default ClusteredMapView;
+export default ClusteredMapView
